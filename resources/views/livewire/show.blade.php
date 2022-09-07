@@ -59,7 +59,8 @@
                             </div>
                         @endforeach
                     @else
-                        No messages to show
+                    <p style="text-align: center"> <i> No messages to show</i> </p>
+
                     @endif
                 </div>
                 <div class="card-footer">

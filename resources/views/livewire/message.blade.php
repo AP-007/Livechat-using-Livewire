@@ -42,7 +42,7 @@
                 </div>
                     <div class="card-body message-box">
                         @if(!$messages)
-                            No messages to show
+                           <p style="text-align: center"> <i> No messages to show</i> </p>
                         @else
                             @if(isset($messages))
                                 @foreach($messages as $message)
