@@ -37,7 +37,7 @@
                     @elseif($admin->is_online)
                         <i class="fa fa-circle text-success"></i> We are online
                     @else
-                        Adarsha Poudel
+                        Admin
                     @endif
                 </div>
                     <div class="card-body message-box">
